@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Imersão Dev - Conversor</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">Conversor de moedas</h1>
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg"
+        class="page-logo"
+        alt=""
+      />
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img
+        src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+        alt=""
+        class="alura-logo"
+      />
+      <img
+        src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png"
+      />
+    </a>
+    <div id="conversores">
+      <p>Converta de Dólar para Real</p>
+      <input type="number" id="dolar" placeholder="Insira um valor em Dólar" />
+      <button onclick="Dolar()">Converter</button>
+      <p>Converta de Euro para Real</p>
+      <input type="number" id="euro" placeholder="Insira um valor em Euro" />
+      <button onclick="Euro()">Converter</button>
+      <p>Converta de Libra Esterlina para Real</p>
+      <input type="number" id="libra" placeholder="Insira um valor em Libra Esterlina"
+      />
+      <button onclick="Libra()">Converter</button>
+      <p>Converta de Iene Japonês para Real</p>
+      <input
+        type="number"
+        id="iene"
+        placeholder="Insira um valor em Iene Japonês"
+      />
+      <button onclick="Iene()">Converter</button>
+    </div>
+    <footer>
+      <p>
+        Todas as cotações foram pesquisadas no dia 14/11/2023.<br>
+        <a href="https://github.com/geaduque">@geaduque</a> + Alura
+      </p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
